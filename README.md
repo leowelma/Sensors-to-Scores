@@ -111,3 +111,9 @@ Python 3.13 — see `requirements.txt` for full package list with version number
 
 ## Responsible for Archive
 Leo Welma — l.welma@students.uu.nl
+
+---
+
+## AI Statement
+
+During this thesis, generative AI (Claude Sonnet 4.5, Claude Sonnet 4.6, Anthropic) was used for text editing, grammar improvement, and coding assistance and debugging.
