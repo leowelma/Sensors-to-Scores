@@ -1,0 +1,4 @@
+Model,r_halves,r_SB_corrected,p,n_trips
+LogisticRegression,0.87,0.931,0.0,40
+RandomForest,0.972,0.986,0.0,40
+XGBoost,0.992,0.996,0.0,40

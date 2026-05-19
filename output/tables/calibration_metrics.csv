@@ -1,0 +1,4 @@
+Model,ECE
+LogisticRegression,0.0766
+RandomForest,0.0469
+XGBoost,0.0116

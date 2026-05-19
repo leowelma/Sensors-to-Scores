@@ -1,0 +1,7 @@
+Model,Comparison,M_Normal,M_Other,Cohen_d,t,p,n
+LogisticRegression,Normal vs DROWSY,0.559,0.334,2.342,5.736,0.0023,6
+LogisticRegression,Normal vs AGGRESSIVE,0.559,0.303,2.407,5.895,0.002,6
+RandomForest,Normal vs DROWSY,0.765,0.173,6.255,15.32,0.0,6
+RandomForest,Normal vs AGGRESSIVE,0.765,0.154,9.47,23.196,0.0,6
+XGBoost,Normal vs DROWSY,0.878,0.091,8.295,20.319,0.0,6
+XGBoost,Normal vs AGGRESSIVE,0.878,0.083,14.524,35.577,0.0,6

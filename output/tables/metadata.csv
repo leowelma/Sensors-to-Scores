@@ -1,0 +1,7 @@
+Driver,Age,Vehicle,MOT_NOR,MOT_DRO,MOT_AGG,SEC_NOR,SEC_DRO,SEC_AGG
+D1,34,Citroën C4 (diesel),1,1,1,2,1,1
+D2,20,Opel Corsa (gasoline),1,1,1,2,1,1
+D3,22,Citroën C4 (diesel),1,1,1,2,1,1
+D4,27,Opel Astra (diesel),1,1,1,2,1,1
+D5,30,Volkswagen Golf (diesel),1,1,1,2,1,1
+D6,46,Nissan Juke (gasoline),1,1,1,1,1,—
