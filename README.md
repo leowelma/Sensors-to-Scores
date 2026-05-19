@@ -1,10 +1,10 @@
 # From Sensors to Scores
 ## Sensor-Based Assessment of Practical Abilities Using Machine Learning Classification
 
-<br><br><br>
+<br><br>
 
 **Author:** Leo Welma (0373885)  
-**Program:** Utrecht University — Methodology and Statistics for the Behavioral, Biomedical and Social Sciences  
+**Program:** Utrecht University - Methodology and Statistics for the Behavioral, Biomedical and Social Sciences  
 **Supervisors:** Remco Feskens (CITO), Johannes Steinrücke (University of Twente)  
 **Date:** 20.05.2026  
 **Candidate journal:** Computers in Human Behavior  
@@ -59,35 +59,35 @@ Romera, E., Bergasa, L.M., & Arroyo, R. (2016). Need data for driver behaviour a
 
 ## How to Reproduce Results
 
-### Step 1 — Clone the repository
+### Step 1: Clone the repository
 ```bash
 git clone https://github.com/leowelma/Sensors-to-Scores.git
 cd Sensors-to-Scores
 ```
 
-### Step 2 — Set up the environment
+### Step 2: Set up the environment
 
-**Option A — pip:**
+**Option A: pip**
 ```bash
 pip install -r requirements.txt
 ```
 
-**Option B — conda:**
+**Option B: conda**
 ```bash
 conda env create -f environment.yml
 conda activate sensors-to-scores
 ```
 
-### Step 3 — Download the data
+### Step 3: Download the data
 Follow the instructions in `data/README_data.md` to download the UAH-DriveSet and place it in the correct folder.
 
-### Step 4 — Configure paths
+### Step 4: Configure paths
 Open `config.py` and update `DATA_ROOT` to point to your local UAH-DriveSet folder:
 ```python
 DATA_ROOT = Path("/your/path/to/UAH-DriveSet")
 ```
 
-### Step 5 — Run the notebook
+### Step 5: Run the notebook
 Run `config.py` first and then open `analysis.ipynb` and run all cells from top to bottom.
 
 The notebook is structured as follows:
@@ -98,19 +98,19 @@ The notebook is structured as follows:
 5. Modeling pipeline
 6. Psychometric evaluation
 
-### Step 6 —  outputs
+### Step 6: outputs
 Find the outputs in the `output/` folder.
 
 ---
 
 ## Environment
 
-Python 3.13 — see `requirements.txt` for full package list with version numbers, or `environment.yml` for the complete conda environment.
+Python 3.13, see `requirements.txt` for full package list with version numbers, or `environment.yml` for the complete conda environment.
 
 ---
 
 ## Responsible for Archive
-Leo Welma — l.welma@students.uu.nl
+Leo Welma (l.welma@students.uu.nl)
 
 ---
 
